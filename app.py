@@ -124,7 +124,7 @@ def gen_frames():
 		# increment the totalFrames and draw the action on the frame
 		totalFrames += 1
 		text = "{}: {}".format("Action", action)
-		cv2.putText(frame, text, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+		cv2.putText(frame, text, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 3)
 
 		# Generate a stream of frame bytes
 		ret, buffer = cv2.imencode('.jpg', frame)
