@@ -3,11 +3,17 @@ A temple run game controlled using face positions.
 
 ***
 
+<img src="media/1.gif" width="100%">
+
 ## Prerequisites
 
 Download and install Python 3.x ([link](https://www.python.org/downloads/))
 
-(Optional) Create and activate a virtual environment:
+Clone the repository
+
+    git clone https://github.com/priyanksharma7/temple-run.git
+
+(Optional) Create and activate a virtual environment
 
     python -m venv virtual_env
     .\virtual_env\Scripts\activate
